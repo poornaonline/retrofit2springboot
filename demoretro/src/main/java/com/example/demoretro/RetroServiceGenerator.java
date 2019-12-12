@@ -1,5 +1,6 @@
 package com.example.demoretro;
 
+import okhttp3.Credentials;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import org.springframework.beans.factory.annotation.Qualifier;
@@ -43,6 +44,18 @@ public class RetroServiceGenerator {
         return retrofit.create(serviceClass);
     }
 
+    // With Basic authentication
+    public static <S> S createService(
+            Class<S> serviceClass, String username, String password) {
+        if (!username.isEmpty() && !password.isEmpty()) {
+            String authToken = Credentials.basic(username, password);
+            return createService(serviceClass, authToken);
+        }
+
+        return createService(serviceClass, null);
+    }
+
+
     @Bean
     @Qualifier("BillionaireServiceNoSecurity")
     public BillionaireService billionaireServiceInitNoSecurity() {
@@ -53,5 +66,11 @@ public class RetroServiceGenerator {
     @Qualifier("BillionaireServiceJWT")
     public BillionaireService billionaireServiceInitJWT() {
         return RetroServiceGenerator.createService(BillionaireService.class);
+    }
+
+    @Bean
+    @Qualifier("BillionaireServiceBasicAuth")
+    public BillionaireService billionaireServiceInitBasicAuth() {
+        return RetroServiceGenerator.createService(BillionaireService.class, "API-KEY", "API-SECRET");
     }
 }

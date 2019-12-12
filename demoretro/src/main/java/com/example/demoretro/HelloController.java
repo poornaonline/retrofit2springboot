@@ -16,6 +16,12 @@ public class HelloController {
     @Autowired @Qualifier("BillionaireServiceNoSecurity")
     BillionaireService billionaireService;
 
+    @Autowired @Qualifier("BillionaireServiceJWT")
+    BillionaireService billionaireServiceInitJWT;
+
+    @Autowired @Qualifier("BillionaireServiceBasicAuth")
+    BillionaireService billionaireServiceInitBasicAuth;
+
     @GetMapping("/")
     public BillionaireResponse sayHello() {
 
