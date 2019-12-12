@@ -1,5 +1,6 @@
 package com.example.demoretro;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 import retrofit2.Call;
@@ -11,11 +12,13 @@ import java.io.IOException;
 @RestController
 public class HelloController {
 
+    @Autowired
+    BillionaireService billionaireService;
+
     @GetMapping("/")
     public BillionaireResponse sayHello() {
 
-        BillionaireService service = RetroServiceGenerator.createService(BillionaireService.class);
-        Call<BillionaireResponse> callSync = service.getBillionaire();
+        Call<BillionaireResponse> callSync = billionaireService.getBillionaire();
 
         Response<BillionaireResponse> response = null;
         try {
@@ -32,8 +35,7 @@ public class HelloController {
     @GetMapping("/2")
     public BillionaireResponse sayHello2() {
 
-        BillionaireService service = RetroServiceGenerator.createService(BillionaireService.class);
-        Call<BillionaireResponse> callAsync = service.getBillionaire();
+        Call<BillionaireResponse> callAsync = billionaireService.getBillionaire();
 
         callAsync.enqueue(new Callback<BillionaireResponse>() {
             @Override

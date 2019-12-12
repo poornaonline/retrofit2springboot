@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0d64c85-f76f-4e39-a04d-85f9c3873aab" name="Default Changelist" comment="" />
+    <list default="true" id="c0d64c85-f76f-4e39-a04d-85f9c3873aab" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/6.0.1/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/build/classes/java/main/com/example/demoretro/HelloController$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/build/classes/java/main/com/example/demoretro/HelloController$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/build/classes/java/main/com/example/demoretro/HelloController.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/build/classes/java/main/com/example/demoretro/HelloController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/build/classes/java/main/com/example/demoretro/RetroServiceGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/build/classes/java/main/com/example/demoretro/RetroServiceGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/src/main/java/com/example/demoretro/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/src/main/java/com/example/demoretro/HelloController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../demoretro/src/main/java/com/example/demoretro/RetroServiceGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/../demoretro/src/main/java/com/example/demoretro/RetroServiceGenerator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +45,11 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1Urt5ySf92SpRQl3KU1hpB6eKUT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -70,6 +100,7 @@
       <workItem from="1576126365010" duration="57000" />
       <workItem from="1576126437936" duration="823000" />
       <workItem from="1576189277871" duration="1214000" />
+      <workItem from="1576191343351" duration="257000" />
     </task>
     <servers />
   </component>
